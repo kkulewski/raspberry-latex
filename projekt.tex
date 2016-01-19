@@ -7,6 +7,7 @@
 \usepackage{titlepic}
 \usepackage{url}
 
+
 \author{Krzysztof Kulewski}
 \title{Raspberry Pi}
 \date{20.01.2016}
@@ -17,6 +18,11 @@
 
 \maketitle
 
+\newpage
+
+\tableofcontents
+
+\newpage
 
 \section{Wprowadzenie}
 \subsection{Opis}
@@ -66,7 +72,7 @@ Tabela \ref{table:parametry} na stronie \pageref{table:parametry} przedstawia pa
 \hline  & Pi 1 B & Pi 1 B+ & Pi 2 B & Pi Zero \\ \hline \hline
 Cena & 25\$ & 20\$ & 35\$ & 5\$ \\ \hline
 SoC (Broadcom) & \multicolumn{2}{c|}{BCM2835} & BCM2836 & BCM2835 \\ \hline
-CPU & 700 MHz & 700 MHz & 900 MHz, quad & 1 GHz\\ \hline
+CPU & \multicolumn{2}{c|}{700 MHz} & 900 MHz, quad & 1 GHz\\ \hline
 GPU & \multicolumn{4}{c|}{Broadcom VideoCore IV @ 250 MHz}  \\ \hline
 RAM & 256/512 MB & 512 MB & 1 GB & 512 MB \\ \hline
 \end{tabular}
@@ -117,6 +123,20 @@ $ I $ - natężenie prądu [A]
 $ q $ - przepływające ładunek
 
 $ t $ - czas przepływu ładunku [s]
+
+\subsection{Macierz}
+Macierz modeli.
+
+\begin{equation}
+      M = \left[
+        \begin{array}{cc}
+         Pi B & Pi B+\\
+         Pi 2 B & Pi Zero
+         \end{array}
+      \right]
+      \qquad 
+\end{equation}
+
 
 \newpage
 \begin{thebibliography}{99}

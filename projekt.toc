@@ -1,0 +1,11 @@
+\select@language {polish}
+\contentsline {section}{\numberline {1}Wprowadzenie}{2}
+\contentsline {subsection}{\numberline {1.1}Opis}{2}
+\contentsline {subsection}{\numberline {1.2}Podstawowe modele}{2}
+\contentsline {section}{\numberline {2}Specyfikacja}{3}
+\contentsline {subsection}{\numberline {2.1}Parametry wersji B oraz Zero}{3}
+\contentsline {subsection}{\numberline {2.2}Wyj\IeC {\'s}cia wersji 2 B}{3}
+\contentsline {section}{\numberline {3}Wzory}{4}
+\contentsline {subsection}{\numberline {3.1}Napi\IeC {\k e}cie}{4}
+\contentsline {subsection}{\numberline {3.2}Nat\IeC {\k e}\IeC {\.z}enie}{4}
+\contentsline {subsection}{\numberline {3.3}Macierz}{4}
